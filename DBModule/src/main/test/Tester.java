@@ -17,7 +17,7 @@ public class Tester {
     }
     @Test
     public  void Test2(){
-        StudentImpl studentimpl= (StudentImpl) ctx.getBean("studentimpl");
+        StudentImpl studentimpl= (StudentImpl) ctx.getBean("studentImpl");
         System.out.println(studentimpl.getAll());
     }
     @Test
